@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!--
+  Eye-to-hand calibration: camera fixed on a tripod, ArUco marker on the gripper.
+  Finds the transform  base_link -> camera_link.
+
+  Needs start_driver.sh and start_camera.sh already running. Run via calibrate.sh.
+  You move the arm yourself (gamepad / web app) and click "Take Sample" in the GUI.
+
+  dictionary: ORIGINAL       -> aruco_ros (Original ArUco markers, 5x5 grid)
+              DICT_4X4_1000  -> aruco_cv_node.py (chev.me "4x4" markers), or any
+                                other OpenCV name (DICT_5X5_1000, DICT_6X6_1000, ...)
+-->
+<launch>
+  <arg name="marker_id"   doc="ID of the ArUco marker on the gripper"/>
+  <arg name="marker_size" doc="black square edge length in METERS, e.g. 0.100"/>
+  <arg name="dictionary"  default="DICT_4X4_1000"/>
+
+  <!-- Frames -->
+  <arg name="robot_base_frame"     default="base_link"/>
+  <arg name="robot_effector_frame" default="end_effector_link"/>  <!-- rigid with the marker -->
+  <arg name="camera_base_frame"    default="camera_link"/>        <!-- root of the camera's tf tree -->
+  <arg name="camera_optical_frame" default="camera_rgb_optical_frame"/>
+  <arg name="marker_frame"         default="calib_marker"/>
+
+  <!-- Detector option 1: aruco_ros, for Original ArUco markers -->
+  <node if="$(eval arg('dictionary') == 'ORIGINAL')" pkg="aruco_ros" type="single" name="aruco_single" output="screen">
+    <remap from="/camera_info" to="/camera/rgb/camera_info"/>
+    <remap from="/image"       to="/camera/rgb/image_rect_color"/>
+    <param name="image_is_rectified" value="true"/>
+    <param name="marker_size"        value="$(arg marker_size)"/>
+    <param name="marker_id"          value="$(arg marker_id)"/>
+    <param name="reference_frame"    value="$(arg camera_base_frame)"/>
+    <param name="camera_frame"       value="$(arg camera_optical_frame)"/>
+    <param name="marker_frame"       value="$(arg marker_frame)"/>
+  </node>
+
+  <!-- Detector option 2 (any other dictionary): aruco_cv_node.py, started by calibrate.sh -->
+
+  <!-- easy_handeye: sampling GUI + solver. eye_on_hand=false means camera is fixed. -->
+  <include file="$(find easy_handeye)/launch/calibrate.launch">
+    <arg name="eye_on_hand"             value="false"/>
+    <arg name="namespace_prefix"        value="shawn_handeye"/>
+    <arg name="freehand_robot_movement" value="true"/>   <!-- you move the arm -->
+
+    <arg name="robot_base_frame"      value="$(arg robot_base_frame)"/>
+    <arg name="robot_effector_frame"  value="$(arg robot_effector_frame)"/>
+    <arg name="tracking_base_frame"   value="$(arg camera_base_frame)"/>
+    <arg name="tracking_marker_frame" value="$(arg marker_frame)"/>
+  </include>
+</launch>

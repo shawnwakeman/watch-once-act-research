@@ -1,0 +1,18 @@
+parameters:
+  eye_on_hand: false
+  freehand_robot_movement: true
+  move_group: manipulator
+  move_group_namespace: /
+  namespace: /shawn_handeye_eye_on_base/
+  robot_base_frame: base_link
+  robot_effector_frame: end_effector_link
+  tracking_base_frame: camera_link
+  tracking_marker_frame: calib_marker
+transformation:
+  qw: 0.738441134855902
+  qx: 0.11145899515352392
+  qy: 0.13336159429476147
+  qz: -0.6515337811036764
+  x: 0.4217794109144757
+  y: 1.1899316500586403
+  z: 0.3784215178362699
