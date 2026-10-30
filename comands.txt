@@ -1,0 +1,3 @@
+
+open camara and arm view:
+rviz -d /root/kinova_ws/src/shawn_scripts/rviz/arm_camera.rviz
