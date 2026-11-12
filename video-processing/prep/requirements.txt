@@ -1,0 +1,4 @@
+rosbags>=0.10
+numpy
+opencv-python
+pyyaml
