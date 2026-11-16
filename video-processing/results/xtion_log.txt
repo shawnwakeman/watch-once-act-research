@@ -1,0 +1,1130 @@
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/perceive.py runs/bowl_drop/run01 --prompt pink cube --source xtion --target cardboard box
+runs/bowl_drop/run01 [xtion] on mps
+  226 frames, 640x480 (scale 1.00 of 640x480)
+  DINO: 'pink cube' score 0.69 box [485, 207, 523, 245]
+  SAM: mask 1005 px
+  DINO target: score 0.85
+  tracking 100 points with CoTracker3 (online, windowed) ...
+    tracked to frame 16/226
+    tracked to frame 96/226
+    tracked to frame 176/226
+  visible points: 98% on average, lowest 39% (frame 192)
+  -> runs/bowl_drop/run01/perception/xtion/  (watch overlay.mp4)
+
+W1115 11:19:07.200000 9875 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+
+Loading weights:   0%|          | 0/978 [00:00<?, ?it/s]
+Loading weights:  73%|███████▎  | 717/978 [00:00<00:00, 7163.12it/s]
+Loading weights: 100%|██████████| 978/978 [00:00<00:00, 8330.99it/s]
+
+Loading weights:   0%|          | 0/314 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 314/314 [00:00<00:00, 7618.42it/s]
+
+Loading weights:   0%|          | 0/978 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 978/978 [00:00<00:00, 25084.72it/s]
+
+Loading weights:   0%|          | 0/314 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 314/314 [00:00<00:00, 24573.86it/s]
+Using cache found in /Users/shawnwakeman/.cache/torch/hub/facebookresearch_co-tracker_main
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/lift.py runs/bowl_drop/run01
+  (camera frames not in this run's camera.yaml - using the openni2 defaults; re-run prep_runs.py to store the exact ones)
+runs/bowl_drop/run01: 226 frames, 100 tracked points, 100 with depth in frame 0
+run: runs/bowl_drop/run01
+frames: 226
+duration_s: 7.540477991104126
+start_base_m:
+- -0.0447
+- 0.247
+- 0.0029
+end_base_m:
+- 0.2216
+- 0.3517
+- 0.009
+displacement_m:
+- 0.2663
+- 0.1047
+- 0.0061
+path_length_m: 0.5666
+end_rotation_deg: 56.9
+fit_rms_mm_median: 2.74
+points_used_median: 98
+frames_held_too_few_points: 0
+target_centroid_base_m:
+- 0.2209
+- 0.3271
+- -0.0155
+end_minus_target_m:
+- 0.0006
+- 0.0246
+- 0.0245
+
+-> runs/bowl_drop/run01/perception/xtion/trajectory.npz, .yaml, .png
+
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/perceive.py runs/bowl_drop/run02 --prompt pink cube --source xtion --target cardboard box
+runs/bowl_drop/run02 [xtion] on mps
+  256 frames, 640x480 (scale 1.00 of 640x480)
+  DINO: 'pink cube' score 0.64 box [487, 206, 525, 244]
+  SAM: mask 1006 px
+  DINO target: score 0.86
+  tracking 100 points with CoTracker3 (online, windowed) ...
+    tracked to frame 16/256
+    tracked to frame 96/256
+    tracked to frame 176/256
+    tracked to frame 256/256
+  visible points: 100% on average, lowest 75% (frame 207)
+  -> runs/bowl_drop/run02/perception/xtion/  (watch overlay.mp4)
+
+W1115 11:19:47.649000 10023 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+
+Loading weights:   0%|          | 0/978 [00:00<?, ?it/s]
+Loading weights:  76%|███████▌  | 740/978 [00:00<00:00, 7373.51it/s]
+Loading weights: 100%|██████████| 978/978 [00:00<00:00, 8743.78it/s]
+
+Loading weights:   0%|          | 0/314 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 314/314 [00:00<00:00, 7695.12it/s]
+
+Loading weights:   0%|          | 0/978 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 978/978 [00:00<00:00, 23915.05it/s]
+
+Loading weights:   0%|          | 0/314 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 314/314 [00:00<00:00, 25166.47it/s]
+Using cache found in /Users/shawnwakeman/.cache/torch/hub/facebookresearch_co-tracker_main
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/lift.py runs/bowl_drop/run02
+  (camera frames not in this run's camera.yaml - using the openni2 defaults; re-run prep_runs.py to store the exact ones)
+runs/bowl_drop/run02: 256 frames, 100 tracked points, 100 with depth in frame 0
+run: runs/bowl_drop/run02
+frames: 256
+duration_s: 8.547329187393188
+start_base_m:
+- -0.0491
+- 0.2457
+- 0.0024
+end_base_m:
+- 0.2182
+- 0.297
+- 0.0095
+displacement_m:
+- 0.2673
+- 0.0513
+- 0.0071
+path_length_m: 0.5826
+end_rotation_deg: 27.9
+fit_rms_mm_median: 2.85
+points_used_median: 96
+frames_held_too_few_points: 0
+target_centroid_base_m:
+- 0.218
+- 0.3291
+- -0.0132
+end_minus_target_m:
+- 0.0002
+- -0.0321
+- 0.0228
+
+-> runs/bowl_drop/run02/perception/xtion/trajectory.npz, .yaml, .png
+
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/perceive.py runs/bowl_drop/run03 --prompt pink cube --source xtion --target cardboard box
+runs/bowl_drop/run03 [xtion] on mps
+  285 frames, 640x480 (scale 1.00 of 640x480)
+  DINO: 'pink cube' score 0.68 box [488, 207, 527, 245]
+  SAM: mask 1017 px
+  DINO target: score 0.85
+  tracking 100 points with CoTracker3 (online, windowed) ...
+    tracked to frame 16/285
+    tracked to frame 96/285
+    tracked to frame 176/285
+    tracked to frame 256/285
+  visible points: 92% on average, lowest 54% (frame 221)
+  -> runs/bowl_drop/run03/perception/xtion/  (watch overlay.mp4)
+
+W1115 11:20:28.969000 10163 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+
+Loading weights:   0%|          | 0/978 [00:00<?, ?it/s]
+Loading weights:  81%|████████  | 790/978 [00:00<00:00, 7898.82it/s]
+Loading weights: 100%|██████████| 978/978 [00:00<00:00, 9132.85it/s]
+
+Loading weights:   0%|          | 0/314 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 314/314 [00:00<00:00, 8830.35it/s]
+
+Loading weights:   0%|          | 0/978 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 978/978 [00:00<00:00, 26181.94it/s]
+
+Loading weights:   0%|          | 0/314 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 314/314 [00:00<00:00, 23547.08it/s]
+Using cache found in /Users/shawnwakeman/.cache/torch/hub/facebookresearch_co-tracker_main
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/lift.py runs/bowl_drop/run03
+  (camera frames not in this run's camera.yaml - using the openni2 defaults; re-run prep_runs.py to store the exact ones)
+runs/bowl_drop/run03: 285 frames, 100 tracked points, 100 with depth in frame 0
+run: runs/bowl_drop/run03
+frames: 285
+duration_s: 9.51789402961731
+start_base_m:
+- -0.0506
+- 0.2492
+- 0.0027
+end_base_m:
+- 0.2349
+- 0.3544
+- 0.0051
+displacement_m:
+- 0.2855
+- 0.1052
+- 0.0024
+path_length_m: 0.5333
+end_rotation_deg: 21.5
+fit_rms_mm_median: 3.57
+points_used_median: 98
+frames_held_too_few_points: 0
+target_centroid_base_m:
+- 0.218
+- 0.3292
+- -0.0134
+end_minus_target_m:
+- 0.0169
+- 0.0252
+- 0.0185
+
+-> runs/bowl_drop/run03/perception/xtion/trajectory.npz, .yaml, .png
+
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/perceive.py runs/bowl_drop/run04 --prompt pink cube --source xtion --target cardboard box
+runs/bowl_drop/run04 [xtion] on mps
+  245 frames, 640x480 (scale 1.00 of 640x480)
+  DINO: 'pink cube' score 0.65 box [488, 208, 526, 246]
+  SAM: mask 1012 px
+  DINO target: score 0.86
+  tracking 100 points with CoTracker3 (online, windowed) ...
+    tracked to frame 16/245
+    tracked to frame 96/245
+    tracked to frame 176/245
+    tracked to frame 245/245
+  visible points: 80% on average, lowest 1% (frame 201)
+  -> runs/bowl_drop/run04/perception/xtion/  (watch overlay.mp4)
+
+W1115 11:21:13.879000 10310 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+
+Loading weights:   0%|          | 0/978 [00:00<?, ?it/s]
+Loading weights:  79%|███████▊  | 769/978 [00:00<00:00, 7685.72it/s]
+Loading weights: 100%|██████████| 978/978 [00:00<00:00, 8976.94it/s]
+
+Loading weights:   0%|          | 0/314 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 314/314 [00:00<00:00, 9541.76it/s]
+
+Loading weights:   0%|          | 0/978 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 978/978 [00:00<00:00, 25770.72it/s]
+
+Loading weights:   0%|          | 0/314 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 314/314 [00:00<00:00, 23343.82it/s]
+Using cache found in /Users/shawnwakeman/.cache/torch/hub/facebookresearch_co-tracker_main
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/lift.py runs/bowl_drop/run04
+  (camera frames not in this run's camera.yaml - using the openni2 defaults; re-run prep_runs.py to store the exact ones)
+runs/bowl_drop/run04: 245 frames, 100 tracked points, 100 with depth in frame 0
+run: runs/bowl_drop/run04
+frames: 245
+duration_s: 8.177802085876465
+start_base_m:
+- -0.0485
+- 0.2496
+- 0.0019
+end_base_m:
+- 0.2771
+- 0.4359
+- 0.0258
+displacement_m:
+- 0.3256
+- 0.1863
+- 0.0239
+path_length_m: 0.951
+end_rotation_deg: 32.5
+fit_rms_mm_median: 2.71
+points_used_median: 96
+frames_held_too_few_points: 12
+target_centroid_base_m:
+- 0.2193
+- 0.3234
+- -0.0144
+end_minus_target_m:
+- 0.0578
+- 0.1125
+- 0.0402
+
+-> runs/bowl_drop/run04/perception/xtion/trajectory.npz, .yaml, .png
+
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/perceive.py runs/bowl_drop/run05 --prompt pink cube --source xtion --target cardboard box
+runs/bowl_drop/run05 [xtion] on mps
+  260 frames, 640x480 (scale 1.00 of 640x480)
+  DINO: 'pink cube' score 0.62 box [484, 207, 521, 244]
+  SAM: mask 1003 px
+  DINO target: score 0.86
+  tracking 100 points with CoTracker3 (online, windowed) ...
+    tracked to frame 16/260
+    tracked to frame 96/260
+    tracked to frame 176/260
+    tracked to frame 256/260
+  visible points: 94% on average, lowest 25% (frame 227)
+  -> runs/bowl_drop/run05/perception/xtion/  (watch overlay.mp4)
+
+W1115 11:21:54.166000 10435 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+
+Loading weights:   0%|          | 0/978 [00:00<?, ?it/s]
+Loading weights:  81%|████████  | 788/978 [00:00<00:00, 7868.94it/s]
+Loading weights: 100%|██████████| 978/978 [00:00<00:00, 9264.91it/s]
+
+Loading weights:   0%|          | 0/314 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 314/314 [00:00<00:00, 24035.69it/s]
+
+Loading weights:   0%|          | 0/978 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 978/978 [00:00<00:00, 24759.49it/s]
+
+Loading weights:   0%|          | 0/314 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 314/314 [00:00<00:00, 24196.87it/s]
+Using cache found in /Users/shawnwakeman/.cache/torch/hub/facebookresearch_co-tracker_main
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/lift.py runs/bowl_drop/run05
+  (camera frames not in this run's camera.yaml - using the openni2 defaults; re-run prep_runs.py to store the exact ones)
+runs/bowl_drop/run05: 260 frames, 100 tracked points, 100 with depth in frame 0
+run: runs/bowl_drop/run05
+frames: 260
+duration_s: 8.680245876312256
+start_base_m:
+- -0.0435
+- 0.2452
+- 0.0019
+end_base_m:
+- 0.2676
+- 0.3962
+- 0.0141
+displacement_m:
+- 0.3111
+- 0.151
+- 0.0121
+path_length_m: 0.632
+end_rotation_deg: 55.6
+fit_rms_mm_median: 3.25
+points_used_median: 98
+frames_held_too_few_points: 0
+target_centroid_base_m:
+- 0.2228
+- 0.325
+- -0.019
+end_minus_target_m:
+- 0.0448
+- 0.0712
+- 0.0331
+
+-> runs/bowl_drop/run05/perception/xtion/trajectory.npz, .yaml, .png
+
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/perceive.py runs/pick_place/run02 --prompt pink cube --source xtion
+runs/pick_place/run02 [xtion] on mps
+  277 frames, 640x480 (scale 1.00 of 640x480)
+  DINO: 'pink cube' score 0.79 box [498, 256, 540, 300]
+  SAM: mask 1350 px
+  tracking 100 points with CoTracker3 (online, windowed) ...
+    tracked to frame 16/277
+    tracked to frame 96/277
+    tracked to frame 176/277
+    tracked to frame 256/277
+  visible points: 100% on average, lowest 98% (frame 41)
+  -> runs/pick_place/run02/perception/xtion/  (watch overlay.mp4)
+
+W1115 11:22:35.900000 10564 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+
+Loading weights:   0%|          | 0/978 [00:00<?, ?it/s]
+Loading weights:  77%|███████▋  | 757/978 [00:00<00:00, 7562.29it/s]
+Loading weights: 100%|██████████| 978/978 [00:00<00:00, 8739.77it/s]
+
+Loading weights:   0%|          | 0/314 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 314/314 [00:00<00:00, 8047.93it/s]
+Using cache found in /Users/shawnwakeman/.cache/torch/hub/facebookresearch_co-tracker_main
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/lift.py runs/pick_place/run02
+  (camera frames not in this run's camera.yaml - using the openni2 defaults; re-run prep_runs.py to store the exact ones)
+runs/pick_place/run02: 277 frames, 100 tracked points, 100 with depth in frame 0
+run: runs/pick_place/run02
+frames: 277
+duration_s: 9.249492883682251
+start_base_m:
+- 0.017
+- 0.3766
+- -0.002
+end_base_m:
+- 0.2286
+- 0.1719
+- -0.0004
+displacement_m:
+- 0.2116
+- -0.2047
+- 0.0017
+path_length_m: 0.4243
+end_rotation_deg: 9.0
+fit_rms_mm_median: 2.93
+points_used_median: 91
+frames_held_too_few_points: 0
+
+-> runs/pick_place/run02/perception/xtion/trajectory.npz, .yaml, .png
+
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/perceive.py runs/pick_place/run03 --prompt pink cube --source xtion
+runs/pick_place/run03 [xtion] on mps
+  286 frames, 640x480 (scale 1.00 of 640x480)
+  DINO: 'pink cube' score 0.80 box [498, 256, 541, 300]
+  SAM: mask 1369 px
+  tracking 99 points with CoTracker3 (online, windowed) ...
+    tracked to frame 16/286
+    tracked to frame 96/286
+    tracked to frame 176/286
+    tracked to frame 256/286
+  visible points: 99% on average, lowest 89% (frame 16)
+  -> runs/pick_place/run03/perception/xtion/  (watch overlay.mp4)
+
+W1115 11:23:16.246000 10691 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+
+Loading weights:   0%|          | 0/978 [00:00<?, ?it/s]
+Loading weights:  81%|████████  | 789/978 [00:00<00:00, 7883.45it/s]
+Loading weights: 100%|██████████| 978/978 [00:00<00:00, 9013.43it/s]
+
+Loading weights:   0%|          | 0/314 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 314/314 [00:00<00:00, 23838.17it/s]
+Using cache found in /Users/shawnwakeman/.cache/torch/hub/facebookresearch_co-tracker_main
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/lift.py runs/pick_place/run03
+  (camera frames not in this run's camera.yaml - using the openni2 defaults; re-run prep_runs.py to store the exact ones)
+runs/pick_place/run03: 286 frames, 99 tracked points, 99 with depth in frame 0
+run: runs/pick_place/run03
+frames: 286
+duration_s: 9.55167007446289
+start_base_m:
+- 0.0166
+- 0.378
+- -0.0028
+end_base_m:
+- 0.233
+- 0.1804
+- -0.0006
+displacement_m:
+- 0.2164
+- -0.1976
+- 0.0022
+path_length_m: 0.4293
+end_rotation_deg: 1.6
+fit_rms_mm_median: 2.59
+points_used_median: 91
+frames_held_too_few_points: 0
+
+-> runs/pick_place/run03/perception/xtion/trajectory.npz, .yaml, .png
+
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/perceive.py runs/pick_place/run04 --prompt pink cube --source xtion
+runs/pick_place/run04 [xtion] on mps
+  223 frames, 640x480 (scale 1.00 of 640x480)
+  DINO: 'pink cube' score 0.80 box [499, 258, 543, 303]
+  SAM: mask 1400 px
+  tracking 100 points with CoTracker3 (online, windowed) ...
+    tracked to frame 16/223
+    tracked to frame 96/223
+    tracked to frame 176/223
+  visible points: 100% on average, lowest 61% (frame 17)
+  -> runs/pick_place/run04/perception/xtion/  (watch overlay.mp4)
+
+W1115 11:23:59.000000 10826 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+
+Loading weights:   0%|          | 0/978 [00:00<?, ?it/s]
+Loading weights:  81%|████████  | 793/978 [00:00<00:00, 7922.64it/s]
+Loading weights: 100%|██████████| 978/978 [00:00<00:00, 8790.15it/s]
+
+Loading weights:   0%|          | 0/314 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 314/314 [00:00<00:00, 7946.35it/s]
+Using cache found in /Users/shawnwakeman/.cache/torch/hub/facebookresearch_co-tracker_main
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/lift.py runs/pick_place/run04
+  (camera frames not in this run's camera.yaml - using the openni2 defaults; re-run prep_runs.py to store the exact ones)
+runs/pick_place/run04: 223 frames, 100 tracked points, 100 with depth in frame 0
+run: runs/pick_place/run04
+frames: 223
+duration_s: 7.437496900558472
+start_base_m:
+- 0.0169
+- 0.3821
+- -0.002
+end_base_m:
+- 0.2319
+- 0.1765
+- -0.0006
+displacement_m:
+- 0.2151
+- -0.2056
+- 0.0015
+path_length_m: 0.4267
+end_rotation_deg: 2.4
+fit_rms_mm_median: 2.81
+points_used_median: 91
+frames_held_too_few_points: 0
+
+-> runs/pick_place/run04/perception/xtion/trajectory.npz, .yaml, .png
+
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/perceive.py runs/pick_place/run05 --prompt pink cube --source xtion
+runs/pick_place/run05 [xtion] on mps
+  233 frames, 640x480 (scale 1.00 of 640x480)
+  DINO: 'pink cube' score 0.80 box [498, 256, 542, 300]
+  SAM: mask 1371 px
+  tracking 99 points with CoTracker3 (online, windowed) ...
+    tracked to frame 16/233
+    tracked to frame 96/233
+    tracked to frame 176/233
+    tracked to frame 233/233
+  visible points: 100% on average, lowest 97% (frame 50)
+  -> runs/pick_place/run05/perception/xtion/  (watch overlay.mp4)
+
+W1115 11:24:33.665000 10937 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+
+Loading weights:   0%|          | 0/978 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 978/978 [00:00<00:00, 11705.30it/s]
+
+Loading weights:   0%|          | 0/314 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 314/314 [00:00<00:00, 24409.44it/s]
+Using cache found in /Users/shawnwakeman/.cache/torch/hub/facebookresearch_co-tracker_main
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/lift.py runs/pick_place/run05
+  (camera frames not in this run's camera.yaml - using the openni2 defaults; re-run prep_runs.py to store the exact ones)
+runs/pick_place/run05: 233 frames, 99 tracked points, 99 with depth in frame 0
+run: runs/pick_place/run05
+frames: 233
+duration_s: 7.77483606338501
+start_base_m:
+- 0.0164
+- 0.3777
+- -0.0028
+end_base_m:
+- 0.2312
+- 0.1796
+- -0.0005
+displacement_m:
+- 0.2148
+- -0.1981
+- 0.0023
+path_length_m: 0.4886
+end_rotation_deg: 4.7
+fit_rms_mm_median: 2.73
+points_used_median: 90
+frames_held_too_few_points: 0
+
+-> runs/pick_place/run05/perception/xtion/trajectory.npz, .yaml, .png
+
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/perceive.py runs/slide_path/run01 --prompt pink cube --source xtion
+runs/slide_path/run01 [xtion] on mps
+  281 frames, 640x480 (scale 1.00 of 640x480)
+  DINO: 'pink cube' score 0.71 box [433, 208, 467, 246]
+  SAM: mask 964 px
+  tracking 100 points with CoTracker3 (online, windowed) ...
+    tracked to frame 16/281
+    tracked to frame 96/281
+    tracked to frame 176/281
+    tracked to frame 256/281
+  visible points: 100% on average, lowest 100% (frame 0)
+  -> runs/slide_path/run01/perception/xtion/  (watch overlay.mp4)
+
+W1115 11:25:08.350000 11043 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+
+Loading weights:   0%|          | 0/978 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 978/978 [00:00<00:00, 22083.25it/s]
+
+Loading weights:   0%|          | 0/314 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 314/314 [00:00<00:00, 26475.25it/s]
+Using cache found in /Users/shawnwakeman/.cache/torch/hub/facebookresearch_co-tracker_main
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/lift.py runs/slide_path/run01
+  (camera frames not in this run's camera.yaml - using the openni2 defaults; re-run prep_runs.py to store the exact ones)
+runs/slide_path/run01: 281 frames, 100 tracked points, 100 with depth in frame 0
+run: runs/slide_path/run01
+frames: 281
+duration_s: 9.38401985168457
+start_base_m:
+- 0.0378
+- 0.2209
+- 0.0015
+end_base_m:
+- 0.2114
+- 0.4099
+- -0.0039
+displacement_m:
+- 0.1736
+- 0.189
+- -0.0054
+path_length_m: 0.3582
+end_rotation_deg: 10.3
+fit_rms_mm_median: 2.41
+points_used_median: 96
+frames_held_too_few_points: 0
+
+-> runs/slide_path/run01/perception/xtion/trajectory.npz, .yaml, .png
+
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/perceive.py runs/slide_path/run02 --prompt pink cube --source xtion
+runs/slide_path/run02 [xtion] on mps
+  269 frames, 640x480 (scale 1.00 of 640x480)
+  DINO: 'pink cube' score 0.73 box [432, 209, 465, 246]
+  SAM: mask 944 px
+  tracking 100 points with CoTracker3 (online, windowed) ...
+    tracked to frame 16/269
+    tracked to frame 96/269
+    tracked to frame 176/269
+    tracked to frame 256/269
+  visible points: 100% on average, lowest 100% (frame 0)
+  -> runs/slide_path/run02/perception/xtion/  (watch overlay.mp4)
+
+W1115 11:25:51.005000 11191 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+
+Loading weights:   0%|          | 0/978 [00:00<?, ?it/s]
+Loading weights:  80%|███████▉  | 782/978 [00:00<00:00, 7807.59it/s]
+Loading weights: 100%|██████████| 978/978 [00:00<00:00, 8938.11it/s]
+
+Loading weights:   0%|          | 0/314 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 314/314 [00:00<00:00, 7898.97it/s]
+Using cache found in /Users/shawnwakeman/.cache/torch/hub/facebookresearch_co-tracker_main
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/lift.py runs/slide_path/run02
+  (camera frames not in this run's camera.yaml - using the openni2 defaults; re-run prep_runs.py to store the exact ones)
+runs/slide_path/run02: 269 frames, 100 tracked points, 100 with depth in frame 0
+run: runs/slide_path/run02
+frames: 269
+duration_s: 8.981296062469482
+start_base_m:
+- 0.0403
+- 0.2204
+- 0.0011
+end_base_m:
+- 0.2079
+- 0.4095
+- -0.0041
+displacement_m:
+- 0.1676
+- 0.1891
+- -0.0052
+path_length_m: 0.3586
+end_rotation_deg: 13.5
+fit_rms_mm_median: 2.32
+points_used_median: 92
+frames_held_too_few_points: 0
+
+-> runs/slide_path/run02/perception/xtion/trajectory.npz, .yaml, .png
+
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/perceive.py runs/slide_path/run03 --prompt pink cube --source xtion
+runs/slide_path/run03 [xtion] on mps
+  261 frames, 640x480 (scale 1.00 of 640x480)
+  DINO: 'pink cube' score 0.72 box [433, 209, 467, 246]
+  SAM: mask 962 px
+  tracking 100 points with CoTracker3 (online, windowed) ...
+    tracked to frame 16/261
+    tracked to frame 96/261
+    tracked to frame 176/261
+    tracked to frame 256/261
+  visible points: 100% on average, lowest 100% (frame 0)
+  -> runs/slide_path/run03/perception/xtion/  (watch overlay.mp4)
+
+W1115 11:26:32.371000 11321 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+
+Loading weights:   0%|          | 0/978 [00:00<?, ?it/s]
+Loading weights:  77%|███████▋  | 753/978 [00:00<00:00, 7499.91it/s]
+Loading weights: 100%|██████████| 978/978 [00:00<00:00, 9217.79it/s]
+
+Loading weights:   0%|          | 0/314 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 314/314 [00:00<00:00, 24008.08it/s]
+Using cache found in /Users/shawnwakeman/.cache/torch/hub/facebookresearch_co-tracker_main
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/lift.py runs/slide_path/run03
+  (camera frames not in this run's camera.yaml - using the openni2 defaults; re-run prep_runs.py to store the exact ones)
+runs/slide_path/run03: 261 frames, 100 tracked points, 100 with depth in frame 0
+run: runs/slide_path/run03
+frames: 261
+duration_s: 8.713641166687012
+start_base_m:
+- 0.0385
+- 0.2209
+- 0.0014
+end_base_m:
+- 0.2082
+- 0.4113
+- -0.0042
+displacement_m:
+- 0.1697
+- 0.1904
+- -0.0056
+path_length_m: 0.3572
+end_rotation_deg: 11.8
+fit_rms_mm_median: 2.28
+points_used_median: 95
+frames_held_too_few_points: 0
+
+-> runs/slide_path/run03/perception/xtion/trajectory.npz, .yaml, .png
+
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/perceive.py runs/slide_path/run04 --prompt pink cube --source xtion
+runs/slide_path/run04 [xtion] on mps
+  308 frames, 640x480 (scale 1.00 of 640x480)
+  DINO: 'pink cube' score 0.72 box [435, 209, 469, 247]
+  SAM: mask 958 px
+  tracking 100 points with CoTracker3 (online, windowed) ...
+    tracked to frame 16/308
+    tracked to frame 96/308
+    tracked to frame 176/308
+    tracked to frame 256/308
+  visible points: 100% on average, lowest 77% (frame 13)
+  -> runs/slide_path/run04/perception/xtion/  (watch overlay.mp4)
+
+W1115 11:27:12.341000 11449 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+
+Loading weights:   0%|          | 0/978 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 978/978 [00:00<00:00, 15515.66it/s]
+
+Loading weights:   0%|          | 0/314 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 314/314 [00:00<00:00, 24538.60it/s]
+Using cache found in /Users/shawnwakeman/.cache/torch/hub/facebookresearch_co-tracker_main
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/lift.py runs/slide_path/run04
+  (camera frames not in this run's camera.yaml - using the openni2 defaults; re-run prep_runs.py to store the exact ones)
+runs/slide_path/run04: 308 frames, 100 tracked points, 100 with depth in frame 0
+run: runs/slide_path/run04
+frames: 308
+duration_s: 10.288149118423462
+start_base_m:
+- 0.0356
+- 0.2239
+- 0.0015
+end_base_m:
+- 0.2105
+- 0.4119
+- -0.0036
+displacement_m:
+- 0.175
+- 0.188
+- -0.0051
+path_length_m: 0.374
+end_rotation_deg: 7.7
+fit_rms_mm_median: 2.64
+points_used_median: 96
+frames_held_too_few_points: 0
+
+-> runs/slide_path/run04/perception/xtion/trajectory.npz, .yaml, .png
+
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/perceive.py runs/slide_path/run05 --prompt pink cube --source xtion
+runs/slide_path/run05 [xtion] on mps
+  264 frames, 640x480 (scale 1.00 of 640x480)
+  DINO: 'pink cube' score 0.72 box [432, 208, 465, 246]
+  SAM: mask 948 px
+  tracking 100 points with CoTracker3 (online, windowed) ...
+    tracked to frame 16/264
+    tracked to frame 96/264
+    tracked to frame 176/264
+    tracked to frame 256/264
+  visible points: 100% on average, lowest 76% (frame 16)
+  -> runs/slide_path/run05/perception/xtion/  (watch overlay.mp4)
+
+W1115 11:27:58.446000 11593 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+
+Loading weights:   0%|          | 0/978 [00:00<?, ?it/s]
+Loading weights:  81%|████████  | 788/978 [00:00<00:00, 7877.77it/s]
+Loading weights: 100%|██████████| 978/978 [00:00<00:00, 9033.48it/s]
+
+Loading weights:   0%|          | 0/314 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 314/314 [00:00<00:00, 23247.40it/s]
+Using cache found in /Users/shawnwakeman/.cache/torch/hub/facebookresearch_co-tracker_main
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/lift.py runs/slide_path/run05
+  (camera frames not in this run's camera.yaml - using the openni2 defaults; re-run prep_runs.py to store the exact ones)
+runs/slide_path/run05: 264 frames, 100 tracked points, 100 with depth in frame 0
+run: runs/slide_path/run05
+frames: 264
+duration_s: 8.814436197280884
+start_base_m:
+- 0.0395
+- 0.2196
+- 0.0013
+end_base_m:
+- 0.2068
+- 0.4069
+- -0.004
+displacement_m:
+- 0.1672
+- 0.1873
+- -0.0053
+path_length_m: 0.3732
+end_rotation_deg: 10.5
+fit_rms_mm_median: 2.48
+points_used_median: 93
+frames_held_too_few_points: 0
+
+-> runs/slide_path/run05/perception/xtion/trajectory.npz, .yaml, .png
+
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/perceive.py runs/stack2/run01 --prompt pink cube --source xtion --target grey block
+runs/stack2/run01 [xtion] on mps
+  306 frames, 640x480 (scale 1.00 of 640x480)
+  DINO: 'pink cube' score 0.79 box [498, 256, 540, 300]
+  SAM: mask 1373 px
+  DINO target: score 0.35
+  tracking 100 points with CoTracker3 (online, windowed) ...
+    tracked to frame 16/306
+    tracked to frame 96/306
+    tracked to frame 176/306
+    tracked to frame 256/306
+  visible points: 100% on average, lowest 99% (frame 48)
+  -> runs/stack2/run01/perception/xtion/  (watch overlay.mp4)
+
+W1115 11:28:39.731000 11723 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+
+Loading weights:   0%|          | 0/978 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 978/978 [00:00<00:00, 13024.22it/s]
+
+Loading weights:   0%|          | 0/314 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 314/314 [00:00<00:00, 23390.67it/s]
+
+Loading weights:   0%|          | 0/978 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 978/978 [00:00<00:00, 25895.83it/s]
+
+Loading weights:   0%|          | 0/314 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 314/314 [00:00<00:00, 23665.97it/s]
+Using cache found in /Users/shawnwakeman/.cache/torch/hub/facebookresearch_co-tracker_main
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/lift.py runs/stack2/run01
+  (camera frames not in this run's camera.yaml - using the openni2 defaults; re-run prep_runs.py to store the exact ones)
+runs/stack2/run01: 306 frames, 100 tracked points, 100 with depth in frame 0
+run: runs/stack2/run01
+frames: 306
+duration_s: 10.221730947494507
+start_base_m:
+- 0.0163
+- 0.3768
+- -0.0023
+end_base_m:
+- 0.2283
+- 0.1863
+- 0.0397
+displacement_m:
+- 0.212
+- -0.1906
+- 0.042
+path_length_m: 0.4134
+end_rotation_deg: 4.5
+fit_rms_mm_median: 3.31
+points_used_median: 93
+frames_held_too_few_points: 0
+target_centroid_base_m:
+- 0.2291
+- 0.1848
+- -0.0009
+end_minus_target_m:
+- -0.0008
+- 0.0015
+- 0.0406
+
+-> runs/stack2/run01/perception/xtion/trajectory.npz, .yaml, .png
+
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/perceive.py runs/stack2/run02 --prompt pink cube --source xtion --target grey block
+runs/stack2/run02 [xtion] on mps
+  291 frames, 640x480 (scale 1.00 of 640x480)
+  DINO: 'pink cube' score 0.79 box [498, 257, 541, 302]
+  SAM: mask 1405 px
+  DINO target: score 0.34
+  tracking 100 points with CoTracker3 (online, windowed) ...
+    tracked to frame 16/291
+    tracked to frame 96/291
+    tracked to frame 176/291
+    tracked to frame 256/291
+  visible points: 98% on average, lowest 91% (frame 33)
+  -> runs/stack2/run02/perception/xtion/  (watch overlay.mp4)
+
+W1115 11:29:30.636000 11886 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+
+Loading weights:   0%|          | 0/978 [00:00<?, ?it/s]
+Loading weights:  75%|███████▌  | 734/978 [00:00<00:00, 7300.86it/s]
+Loading weights: 100%|██████████| 978/978 [00:00<00:00, 8555.59it/s]
+
+Loading weights:   0%|          | 0/314 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 314/314 [00:00<00:00, 9754.34it/s]
+
+Loading weights:   0%|          | 0/978 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 978/978 [00:00<00:00, 25371.60it/s]
+
+Loading weights:   0%|          | 0/314 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 314/314 [00:00<00:00, 24292.38it/s]
+Using cache found in /Users/shawnwakeman/.cache/torch/hub/facebookresearch_co-tracker_main
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/lift.py runs/stack2/run02
+  (camera frames not in this run's camera.yaml - using the openni2 defaults; re-run prep_runs.py to store the exact ones)
+runs/stack2/run02: 291 frames, 100 tracked points, 100 with depth in frame 0
+run: runs/stack2/run02
+frames: 291
+duration_s: 9.71941089630127
+start_base_m:
+- 0.0171
+- 0.3788
+- -0.0027
+end_base_m:
+- 0.2353
+- 0.1844
+- 0.0388
+displacement_m:
+- 0.2182
+- -0.1944
+- 0.0415
+path_length_m: 0.447
+end_rotation_deg: 4.0
+fit_rms_mm_median: 3.31
+points_used_median: 91
+frames_held_too_few_points: 0
+target_centroid_base_m:
+- 0.2318
+- 0.1839
+- -0.0009
+end_minus_target_m:
+- 0.0035
+- 0.0004
+- 0.0397
+
+-> runs/stack2/run02/perception/xtion/trajectory.npz, .yaml, .png
+
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/perceive.py runs/stack2/run03 --prompt pink cube --source xtion --target grey block
+runs/stack2/run03 [xtion] on mps
+  207 frames, 640x480 (scale 1.00 of 640x480)
+  DINO: 'pink cube' score 0.79 box [498, 256, 542, 301]
+  SAM: mask 1386 px
+  DINO target: score 0.35
+  tracking 97 points with CoTracker3 (online, windowed) ...
+    tracked to frame 16/207
+    tracked to frame 96/207
+    tracked to frame 176/207
+  visible points: 100% on average, lowest 74% (frame 20)
+  -> runs/stack2/run03/perception/xtion/  (watch overlay.mp4)
+
+W1115 11:30:22.448000 12079 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+
+Loading weights:   0%|          | 0/978 [00:00<?, ?it/s]
+Loading weights:  77%|███████▋  | 752/978 [00:00<00:00, 7518.20it/s]
+Loading weights: 100%|██████████| 978/978 [00:00<00:00, 8878.89it/s]
+
+Loading weights:   0%|          | 0/314 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 314/314 [00:00<00:00, 7884.88it/s]
+
+Loading weights:   0%|          | 0/978 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 978/978 [00:00<00:00, 25435.47it/s]
+
+Loading weights:   0%|          | 0/314 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 314/314 [00:00<00:00, 22951.65it/s]
+Using cache found in /Users/shawnwakeman/.cache/torch/hub/facebookresearch_co-tracker_main
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/lift.py runs/stack2/run03
+  (camera frames not in this run's camera.yaml - using the openni2 defaults; re-run prep_runs.py to store the exact ones)
+runs/stack2/run03: 207 frames, 97 tracked points, 97 with depth in frame 0
+run: runs/stack2/run03
+frames: 207
+duration_s: 6.903203964233398
+start_base_m:
+- 0.0165
+- 0.3785
+- -0.0021
+end_base_m:
+- 0.2338
+- 0.1854
+- 0.0387
+displacement_m:
+- 0.2173
+- -0.1931
+- 0.0408
+path_length_m: 0.4071
+end_rotation_deg: 4.6
+fit_rms_mm_median: 3.24
+points_used_median: 90
+frames_held_too_few_points: 0
+target_centroid_base_m:
+- 0.2313
+- 0.1823
+- -0.0019
+end_minus_target_m:
+- 0.0025
+- 0.0031
+- 0.0407
+
+-> runs/stack2/run03/perception/xtion/trajectory.npz, .yaml, .png
+
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/perceive.py runs/stack2/run04 --prompt pink cube --source xtion --target grey block
+runs/stack2/run04 [xtion] on mps
+  215 frames, 640x480 (scale 1.00 of 640x480)
+  DINO: 'pink cube' score 0.79 box [498, 256, 542, 301]
+  SAM: mask 1395 px
+  DINO target: score 0.35
+  tracking 99 points with CoTracker3 (online, windowed) ...
+    tracked to frame 16/215
+    tracked to frame 96/215
+    tracked to frame 176/215
+  visible points: 100% on average, lowest 100% (frame 0)
+  -> runs/stack2/run04/perception/xtion/  (watch overlay.mp4)
+
+W1115 11:31:01.086000 12212 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+
+Loading weights:   0%|          | 0/978 [00:00<?, ?it/s]
+Loading weights:  83%|████████▎ | 815/978 [00:00<00:00, 8147.06it/s]
+Loading weights: 100%|██████████| 978/978 [00:00<00:00, 8880.31it/s]
+
+Loading weights:   0%|          | 0/314 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 314/314 [00:00<00:00, 9347.73it/s]
+
+Loading weights:   0%|          | 0/978 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 978/978 [00:00<00:00, 25707.09it/s]
+
+Loading weights:   0%|          | 0/314 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 314/314 [00:00<00:00, 25516.06it/s]
+Using cache found in /Users/shawnwakeman/.cache/torch/hub/facebookresearch_co-tracker_main
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/lift.py runs/stack2/run04
+  (camera frames not in this run's camera.yaml - using the openni2 defaults; re-run prep_runs.py to store the exact ones)
+runs/stack2/run04: 215 frames, 99 tracked points, 99 with depth in frame 0
+run: runs/stack2/run04
+frames: 215
+duration_s: 7.172106981277466
+start_base_m:
+- 0.0166
+- 0.3787
+- -0.0025
+end_base_m:
+- 0.2346
+- 0.185
+- 0.0394
+displacement_m:
+- 0.218
+- -0.1938
+- 0.0419
+path_length_m: 0.4096
+end_rotation_deg: 3.3
+fit_rms_mm_median: 3.64
+points_used_median: 93
+frames_held_too_few_points: 0
+target_centroid_base_m:
+- 0.2318
+- 0.184
+- -0.0009
+end_minus_target_m:
+- 0.0029
+- 0.001
+- 0.0404
+
+-> runs/stack2/run04/perception/xtion/trajectory.npz, .yaml, .png
+
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/perceive.py runs/stack2/run05 --prompt pink cube --source xtion --target grey block
+runs/stack2/run05 [xtion] on mps
+  247 frames, 640x480 (scale 1.00 of 640x480)
+  DINO: 'pink cube' score 0.78 box [497, 257, 541, 303]
+  SAM: mask 1404 px
+  DINO target: score 0.35
+  tracking 100 points with CoTracker3 (online, windowed) ...
+    tracked to frame 16/247
+    tracked to frame 96/247
+    tracked to frame 176/247
+    tracked to frame 247/247
+  visible points: 98% on average, lowest 68% (frame 15)
+  -> runs/stack2/run05/perception/xtion/  (watch overlay.mp4)
+
+W1115 11:31:40.865000 12344 torch/distributed/elastic/multiprocessing/redirects.py:35] NOTE: Redirects are currently not supported in MacOs.
+
+Loading weights:   0%|          | 0/978 [00:00<?, ?it/s]
+Loading weights:  79%|███████▊  | 769/978 [00:00<00:00, 7664.32it/s]
+Loading weights: 100%|██████████| 978/978 [00:00<00:00, 9014.91it/s]
+
+Loading weights:   0%|          | 0/314 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 314/314 [00:00<00:00, 8046.55it/s]
+
+Loading weights:   0%|          | 0/978 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 978/978 [00:00<00:00, 26028.60it/s]
+
+Loading weights:   0%|          | 0/314 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 314/314 [00:00<00:00, 22436.69it/s]
+Using cache found in /Users/shawnwakeman/.cache/torch/hub/facebookresearch_co-tracker_main
+
+
+===== /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/.venv-perc/bin/python3 /Users/shawnwakeman/Documents/Projects/Robotics/Robotics Resarch Project/Root/watch-once-act-research/video-processing/perception/lift.py runs/stack2/run05
+  (camera frames not in this run's camera.yaml - using the openni2 defaults; re-run prep_runs.py to store the exact ones)
+runs/stack2/run05: 247 frames, 100 tracked points, 100 with depth in frame 0
+run: runs/stack2/run05
+frames: 247
+duration_s: 8.24464201927185
+start_base_m:
+- 0.0186
+- 0.3794
+- -0.0022
+end_base_m:
+- 0.2345
+- 0.1842
+- 0.038
+displacement_m:
+- 0.2159
+- -0.1951
+- 0.0402
+path_length_m: 0.5432
+end_rotation_deg: 5.2
+fit_rms_mm_median: 3.29
+points_used_median: 88
+frames_held_too_few_points: 0
+target_centroid_base_m:
+- 0.2318
+- 0.184
+- -0.001
+end_minus_target_m:
+- 0.0027
+- 0.0003
+- 0.0389
+
+-> runs/stack2/run05/perception/xtion/trajectory.npz, .yaml, .png
+
+

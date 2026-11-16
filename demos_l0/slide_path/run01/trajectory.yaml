@@ -1,0 +1,20 @@
+run: runs/slide_path/run01
+frames: 281
+duration_s: 9.38401985168457
+start_base_m:
+- 0.0378
+- 0.2209
+- 0.0015
+end_base_m:
+- 0.2114
+- 0.4099
+- -0.0039
+displacement_m:
+- 0.1736
+- 0.189
+- -0.0054
+path_length_m: 0.3582
+end_rotation_deg: 10.3
+fit_rms_mm_median: 2.41
+points_used_median: 96
+frames_held_too_few_points: 0

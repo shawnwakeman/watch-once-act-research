@@ -1,0 +1,20 @@
+run: runs/pick_place/run02
+frames: 277
+duration_s: 9.249492883682251
+start_base_m:
+- 0.017
+- 0.3766
+- -0.002
+end_base_m:
+- 0.2286
+- 0.1719
+- -0.0004
+displacement_m:
+- 0.2116
+- -0.2047
+- 0.0017
+path_length_m: 0.4243
+end_rotation_deg: 9.0
+fit_rms_mm_median: 2.93
+points_used_median: 91
+frames_held_too_few_points: 0

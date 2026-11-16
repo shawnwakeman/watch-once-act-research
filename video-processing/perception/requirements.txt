@@ -1,0 +1,11 @@
+torch
+torchvision
+transformers>=4.40
+huggingface_hub
+pillow
+opencv-python
+numpy
+pyyaml
+matplotlib
+einops
+imageio[ffmpeg]

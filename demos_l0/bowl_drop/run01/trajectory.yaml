@@ -1,0 +1,42 @@
+run: runs/bowl_drop/run01
+frames: 183
+duration_s: 6.099726915359497
+start_base_m:
+- -0.0447
+- 0.247
+- 0.0029
+end_base_m:
+- 0.2524
+- 0.3424
+- 0.0906
+displacement_m:
+- 0.2971
+- 0.0954
+- 0.0876
+path_length_m: 0.4232
+end_rotation_deg: 17.4
+fit_rms_mm_median: 2.48
+fit_rms_mm_p95: 4.01
+frames_rejected_interpolated: 0
+points_used_median: 98
+frames_held_too_few_points: 0
+ended_early_at_frame: null
+release_frame: 182
+release_time_s: 6.1
+trajectory_ends_at_release: true
+landed_base_m:
+- 0.2219
+- 0.3521
+- 0.0089
+target_centroid_base_m:
+- 0.2209
+- 0.3271
+- -0.0155
+end_minus_target_m:
+- 0.0314
+- 0.0153
+- 0.1061
+landed_minus_target_m:
+- 0.001
+- 0.025
+- 0.0244

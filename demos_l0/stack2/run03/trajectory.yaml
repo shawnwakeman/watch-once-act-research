@@ -1,0 +1,28 @@
+run: runs/stack2/run03
+frames: 207
+duration_s: 6.903203964233398
+start_base_m:
+- 0.0165
+- 0.3785
+- -0.0021
+end_base_m:
+- 0.2338
+- 0.1854
+- 0.0387
+displacement_m:
+- 0.2173
+- -0.1931
+- 0.0408
+path_length_m: 0.4071
+end_rotation_deg: 4.6
+fit_rms_mm_median: 3.24
+points_used_median: 90
+frames_held_too_few_points: 0
+target_centroid_base_m:
+- 0.2313
+- 0.1823
+- -0.0019
+end_minus_target_m:
+- 0.0025
+- 0.0031
+- 0.0407
