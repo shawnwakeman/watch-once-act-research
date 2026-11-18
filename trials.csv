@@ -1,0 +1,41 @@
+time,level,task,demo,mode,success,err_xy_cm,err_z_cm,cube_x,cube_y,cube_z,goal_x,goal_y,goal_z,end_x,end_y,end_z,note
+2026-11-18 00:14:24,L0,pick_place,demos_l0/pick_place/run05,follow,1,2.3427,0.1753,0.0876,0.5073,-0.0134,0.3133,0.2983,-0.0523,0.2905,0.2929,-0.0105, 1-1-1
+2026-11-18 00:16:06,L0,pick_place,demos_l0/pick_place/run05,follow,1,2.3031,0.2077,0.0866,0.5075,-0.0136,0.3124,0.2985,-0.0525,0.2896,0.2951,-0.0105,1-1-2 No clear visual diffrence from spot 1 run 1
+2026-11-18 00:17:33,L0,pick_place,demos_l0/pick_place/run05,follow,1,,,0.0046,0.4674,-0.0109,0.2325,0.2603,-0.0498,,,,1-2-1placed at slightly off rotation
+2026-11-18 00:19:18,L0,pick_place,demos_l0/pick_place/run05,follow,1,2.0784,0.226,0.0067,0.467,-0.011,0.2324,0.258,-0.0499,0.2116,0.2564,-0.0076,1-2-2 cube was placed slightly closer and aligned correctly to not rotated unlike run 1
+2026-11-18 00:20:54,L0,pick_place,demos_l0/pick_place/run05,follow,1,2.5261,0.0478,0.0925,0.4098,-0.0109,0.3207,0.2023,-0.0498,0.2962,0.2083,-0.0093,1-3-1 minor cwise rotation
+2026-11-18 00:28:39,L0,pick_place,demos_l0/pick_place/run05,follow,1,2.8682,0.0313,0.0925,0.4095,-0.0104,0.3208,0.2019,-0.0493,0.2935,0.2105,-0.009,1-3-2 nearly identical
+2026-11-18 00:30:54,L0,pick_place,demos_l0/pick_place/run05,follow,1,10.293,2.6572,0.0431,0.3785,-0.009,0.2712,0.1711,-0.0479,0.2653,0.2739,0.0187,1-4-1 slight ccwise rotation
+2026-11-18 00:32:14,L0,pick_place,demos_l0/pick_place/run05,follow,1,2.5472,-0.0626,0.0442,0.378,-0.0092,0.2723,0.1706,-0.0481,0.2476,0.1766,-0.0087,1-4-2 slightly more rotation but nearly the same position
+2026-11-18 00:33:34,L0,pick_place,demos_l0/pick_place/run05,follow,1,30.7587,-0.0547,0.0754,0.3135,-0.0084,0.3037,0.1059,-0.0473,0.0777,0.3146,-0.0078,1-5-1 same ccwise rotation
+2026-11-18 00:34:48,L0,pick_place,demos_l0/pick_place/run05,follow,1,3.1166,-0.1397,0.076,0.3135,-0.0082,0.304,0.1062,-0.0471,0.2737,0.1137,-0.0085,1-5-2 very similar position
+2026-11-18 00:37:31,L0,bowl_drop,demos_l0/bowl_drop/run02,follow,1,10.5967,,0.0407,0.5007,-0.0119,0.2772,0.387,0.0875,0.3123,0.487,0.0328,2-1-1 standard drop ended in top left corner
+2026-11-18 00:38:54,L0,bowl_drop,demos_l0/bowl_drop/run02,follow,1,5.5757,,0.0416,0.5013,-0.0128,0.2794,0.3829,0.0866,0.265,0.4368,-0.0039,2-1-2 drop ended left middle of the box
+2026-11-18 00:40:21,L0,bowl_drop,demos_l0/bowl_drop/run02,follow,1,5.2471,,0.0835,0.4214,-0.0109,0.2853,0.3917,0.0884,0.2962,0.4431,-0.005,2-2-1 standard drop ended top left corner
+2026-11-18 00:42:19,L0,bowl_drop,demos_l0/bowl_drop/run02,follow,1,2.6925,,0.0819,0.4211,-0.0109,0.2852,0.3968,0.0884,0.2941,0.4222,-0.0036, 2-2-2 ended very close, top left
+2026-11-18 00:43:56,L0,bowl_drop,demos_l0/bowl_drop/run02,follow,1,2.9998,,0.0015,0.4133,-0.0097,0.2821,0.3911,0.0896,0.2881,0.3618,-0.0038, 2-3-1block ended little right of top center
+2026-11-18 00:45:17,L0,bowl_drop,demos_l0/bowl_drop/run02,follow,1,9.5898,,0.0015,0.4132,-0.0098,0.2829,0.3915,0.0895,0.2689,0.2966,-0.0042, 2-3-2 top right
+2026-11-18 00:46:56,L0,bowl_drop,demos_l0/bowl_drop/run02,follow,1,3.7147,,0.0341,0.3553,-0.0084,0.2858,0.3897,0.0909,0.2744,0.3544,-0.0029, 2-4-1 good drop mid center
+2026-11-18 00:48:51,L0,bowl_drop,demos_l0/bowl_drop/run02,follow,1,0.8556,,0.0341,0.3544,-0.0085,0.2953,0.3907,0.0908,0.296,0.3993,-0.0047,2-4-2 little higher and slightly to the right center
+2026-11-18 00:50:11,L0,bowl_drop,demos_l0/bowl_drop/run02,follow,1,11.5083,,0.0721,0.327,-0.009,0.2861,0.402,0.0903,0.2128,0.3133,-0.0021,2-5-1 fell bottom right
+2026-11-18 00:51:46,L0,bowl_drop,demos_l0/bowl_drop/run02,follow,1,4.0923,,0.0707,0.3272,-0.0087,0.2813,0.3949,0.0907,0.2418,0.4056,-0.0045, 2-5-2
+2026-11-18 00:56:38,L0,slide_path,demos_l0/slide_path/run01,follow,1,1.0086,,0.0523,0.343,-0.0088,0.2062,0.5033,-0.0488,0.2163,0.5032,-0.0131,3-1-1 little pushed off path but completed the L shape
+2026-11-18 00:58:58,L0,slide_path,demos_l0/slide_path/run01,follow,1,0.5763,,0.0511,0.3393,-0.0087,0.2051,0.4997,-0.0487,0.2105,0.5015,-0.0128,3-1-2 "similar, it pushed it off course slightly on the second leg and ended just short of the first run"
+2026-11-18 01:00:43,L0,slide_path,demos_l0/slide_path/run01,follow,1,1.274,,0.0132,0.3016,-0.0073,0.1672,0.462,-0.0473,0.1798,0.4607,-0.0123, 3-2-1
+2026-11-18 01:02:49,L0,slide_path,demos_l0/slide_path/run01,follow,1,0.5489,,0.0141,0.3003,-0.0071,0.1681,0.4607,-0.0471,0.1726,0.4638,-0.012,3-2-2
+2026-11-18 01:04:43,L0,slide_path,demos_l0/slide_path/run01,follow,1,1.0687,,-0.0212,0.2812,-0.0057,0.1328,0.4415,-0.0457,0.1412,0.448,-0.012,3-3-1
+2026-11-18 01:06:29,L0,slide_path,demos_l0/slide_path/run01,follow,1,0.5182,,-0.0202,0.2816,-0.0055,0.1337,0.442,-0.0455,0.1387,0.4433,-0.0124,3-3-2 gripper was a little far down but still completed the push
+2026-11-18 01:08:27,L0,slide_path,demos_l0/slide_path/run01,follow,1,0.9999,,0.1259,0.2806,-0.0074,0.2798,0.4409,-0.0474,0.2898,0.4408,-0.012, 3-4-1 was only pushing with a single finger on the second leg
+2026-11-18 01:10:14,L0,slide_path,demos_l0/slide_path/run01,follow,1,1.1624,,0.1248,0.2784,-0.0071,0.2788,0.4387,-0.0471,0.2904,0.4378,-0.0124,3-4-2 similar 1 finger pushing
+2026-11-18 01:13:32,L0,slide_path,demos_l0/slide_path/run01,follow,1,1.685,,0.0701,0.2486,-0.0063,0.2241,0.409,-0.0463,0.2403,0.4134,-0.0116, 3-5-1 sizeable rotaion after leg 1 finishing at an angle
+2026-11-18 01:15:29,L0,slide_path,demos_l0/slide_path/run01,follow,0,3.3316,,0.0707,0.2488,-0.0058,0.2246,0.4092,-0.0458,0.2498,0.3873,-0.0103,3-5-2 P: on second leg cube spun of upwards not finishing the path
+2026-11-18 01:18:06,L0,stack2,demos_l0/stack2/run04,follow,1,1.9158,-0.4569,0.0826,0.4741,-0.0122,0.2296,0.246,-0.0045,0.214,0.257,0.0309,4-1-1 great drop to start out
+2026-11-18 01:19:21,L0,stack2,demos_l0/stack2/run04,follow,1,2.0084,-0.4598,0.0815,0.471,-0.0117,0.2298,0.245,-0.0043,0.214,0.2575,0.0311,4-1-2 similar to run 1
+2026-11-18 01:22:58,L0,stack2,demos_l0/stack2/run04,follow,1,2.1122,-0.4546,0.1418,0.4463,-0.0119,0.2282,0.2475,-0.0044,0.2122,0.2613,0.0311,4-2-1 very good drop -- note that the erros here are listing 2.1 cm that is not true mabye a few mm off on this one so somthing is off with these calculations -- can use the cube 3d points mabye
+2026-11-18 01:26:43,L0,stack2,demos_l0/stack2/run04,follow,1,2.0877,-0.476,0.142,0.4479,-0.0124,0.2231,0.2484,-0.004,0.2077,0.2625,0.0312,4-2-2 good drop
+2026-11-18 01:28:20,L0,stack2,demos_l0/stack2/run04,follow,1,1.7538,-0.472,0.0359,0.402,-0.0094,0.2281,0.2489,-0.004,0.2112,0.2533,0.0313,4-3-1good drop a little off but still well within range
+2026-11-18 01:29:40,L0,stack2,demos_l0/stack2/run04,follow,1,1.6609,-0.4144,0.1095,0.3617,-0.0096,0.2258,0.2514,-0.0044,0.2096,0.255,0.0315,4-3-2 good drop
+2026-11-18 01:30:53,L0,stack2,demos_l0/stack2/run04,follow,1,1.0891,-0.5473,0.0356,0.2734,-0.0065,0.2309,0.2534,-0.0039,0.2201,0.2549,0.0306,4-4-1 nearly perfect
+2026-11-18 01:31:55,L0,stack2,demos_l0/stack2/run04,follow,1,1.6772,-0.4884,0.0368,0.2707,-0.0066,0.2326,0.2543,-0.0039,0.2158,0.2546,0.0312, 4-4-2
+2026-11-18 01:32:59,L0,stack2,demos_l0/stack2/run04,follow,1,1.4435,-0.5644,-0.0183,0.2413,-0.0052,0.2319,0.2562,-0.0036,0.218,0.2603,0.0307,4-5-1 noice
+2026-11-18 01:34:12,L0,stack2,demos_l0/stack2/run04,follow,1,1.3544,-0.4905,-0.019,0.2416,-0.0048,0.2343,0.2569,-0.0043,0.2209,0.2587,0.0308, 4-5-2 best demo, this is perfect"

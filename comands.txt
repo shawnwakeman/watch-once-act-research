@@ -1,3 +1,12 @@
 
 open camara and arm view:
 rviz -d /root/kinova_ws/src/shawn_scripts/rviz/arm_camera.rviz
+
+
+export CUBE_M=0.04 GRASP_LOWER_M=0
+python3 replay.py pick_place demos_l0/pick_place/run05
+python3 replay.py bowl_drop demos_l0/bowl_drop/run02
+python3 replay.py slide_path demos_l0/slide_path/run01
+python3 replay.py stack2 demos_l0/stack2/run04
+
+

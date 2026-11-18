@@ -42,9 +42,9 @@ import tf2_geometry_msgs  # noqa: F401
 from geometry_msgs.msg import PointStamped, PoseStamped
 from tf.transformations import quaternion_from_matrix
 
-CUBE = float(os.environ.get("CUBE_M", "0.03"))
+CUBE = float(os.environ.get("CUBE_M", "0.04"))
 TABLE_Z = float(os.environ.get("TABLE_Z", "-0.052"))
-SPEED = min(float(os.environ.get("SPEED", "0.5")), 0.5)   # capped at 50%
+SPEED = min(float(os.environ.get("SPEED", "1.0")), 1.0)  
 CLOSE = float(os.environ.get("CLOSE", "0.8"))
 YAW_DEG = float(os.environ.get("YAW_DEG", "180"))
 GRIP_FLIP = os.environ.get("GRIP_FLIP", "0") == "1"

@@ -1,0 +1,50 @@
+Freeze robot settings for the L0 trials (unchanged for all degraded trials)
+
+== Exported in the trial terminal
+
+== Constants and defaults in the code
+replay.py:5:DEFAULT = FOLLOW MODE: the robot does only what the demo can't tell it, then follows it.
+replay.py:105:PINK = [int(v) for v in os.environ.get("PINK_HSV", "140,70,70,179,255,255").split(",")]
+replay.py:106:DROP_ABOVE = float(os.environ.get("DROP_ABOVE_M", "0.06"))
+replay.py:107:PUSH_LOW = float(os.environ.get("PUSH_LOW_M", "0.012"))
+replay.py:108:PUSH_YAW_OFF = float(os.environ.get("PUSH_YAW_OFF", "90"))
+replay.py:109:GRASP_LOWER = float(os.environ.get("GRASP_LOWER_M", "0.0"))
+replay.py:110:FOLLOW_CUBE_YAW = os.environ.get("CUBE_YAW", "1") == "1"   # 0 = always grasp at YAW_DEG +- 90s
+replay.py:111:TOOL_DXY = (float(os.environ.get("TOOL_DX_M", "0")), float(os.environ.get("TOOL_DY_M", "0")))
+replay.py:112:GRASP_XY = np.array([float(os.environ.get("GRASP_DX_M", "0")), float(os.environ.get("GRASP_DY_M", "0"))])
+replay.py:115:FOLLOW_SPEED = min(1.0, float(os.environ.get("SPEED", "0.5")))
+replay.py:117:ACCEL = min(1.0, float(os.environ.get("ACCEL", "0.4")))
+replay.py:118:CLOUD_T = os.environ.get("CLOUD_TOPIC", "/camera/depth_registered/points")
+replay.py:119:CUBE_DETECT = os.environ.get("CUBE_DETECT", "3d")    # 3d = like the grey block; 2d = old color blob
+replay.py:120:HEIGHT_SRC = os.environ.get("HEIGHT_SRC", "cloud")   # cloud = same 3D points RViz clicks use; depth = depth image + K
+replay.py:125:DEBUG = Path(__file__).resolve().parent / "debug"
+replay.py:698:END_FLOOR = [None]       # stack2: the cube must end with its bottom at least this high (block top + 4 mm)
+follow.py:41:MOVE_START_M = 0.005     # the demo cube counts as moving once it's this far from its start
+follow.py:42:SETTLE_M = 0.003         # ... and as settled once it stays this close to its final position
+follow.py:44:KNOT_S = float(os.environ.get("KNOT_S", "0.25"))              # one trajectory point per 0.25 s of demo
+follow.py:45:SMOOTH_POS_S = float(os.environ.get("SMOOTH_POS_S", "0.8"))  # position smoothing (gaussian sigma, s)
+follow.py:46:SMOOTH_ROT_S = float(os.environ.get("SMOOTH_ROT_S", "0.2"))  # rotation smoothing (sigma, s)
+follow.py:51:XY_SCALE = float(os.environ.get("XY_SCALE", "1.05"))
+follow.py:52:XY_SCALE_X = float(os.environ.get("XY_SCALE_X", "1.06"))
+follow.py:53:XY_SCALE_Y = float(os.environ.get("XY_SCALE_Y", "1.05"))
+follow.py:54:LIMIT_MARGIN_DEG = 5.0  # every joint stays this far from its limit
+follow.py:55:MAX_STEP_RAD = 0.6       # a bigger joint change between two knots = a branch jump
+follow.py:57:BODY_CLEAR_M = 0.02      # wrist / elbow joints stay this far above the table
+pick_place.py:45:CUBE = float(os.environ.get("CUBE_M", "0.04"))
+pick_place.py:46:TABLE_Z = float(os.environ.get("TABLE_Z", "-0.052"))
+pick_place.py:47:SPEED = min(float(os.environ.get("SPEED", "1.0")), 1.0)  
+pick_place.py:48:CLOSE = float(os.environ.get("CLOSE", "0.8"))
+pick_place.py:49:YAW_DEG = float(os.environ.get("YAW_DEG", "180"))
+pick_place.py:50:GRIP_FLIP = os.environ.get("GRIP_FLIP", "0") == "1"
+pick_place.py:51:BASE = "base_link"
+pick_place.py:52:TIP = 0.032           # tool_frame is ~32 mm above the fingertips (tip check)
+pick_place.py:53:APPROACH = 0.10       # pre-grasp / pre-place height above the target, m
+pick_place.py:54:CLEAR = 0.004         # never put the fingertips closer than this to the table
+pick_place.py:55:GRIP_DEPTH = min(0.6 * CUBE, CUBE - 0.008)   # how far down the cube the fingertips go
+
+== Files used (md5)
+ce5e0f7a7f48e496ad54d45bfd322ae6  replay.py
+6c01f33a036334edc540c84f32ea3d1e  follow.py
+05ad2f5cde940be07f3da3cfcf4d237f  pick_place.py
+f00df9fd569591e558da7bc8fbe228d1  arm_model.py
+14214b9f00bcfb1b61a4fcf56aee9af0  calibration/current.yaml
